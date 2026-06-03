@@ -1,0 +1,344 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+rdfs:subClassOf a rdf:Property;
+  rdfs:label "subClassOf"@en .
+
+rdf:type a rdf:Property;
+  rdfs:label "type"@en .
+
+rdfs:label a rdf:Property;
+  rdfs:label "label"@en;
+  rdfs:range "http://www.w3.org/2001/XMLSchema#string" .
+
+rdfs:comment a rdf:Property;
+  rdfs:label "comment"@en;
+  rdfs:range "http://www.w3.org/2001/XMLSchema#string" .
+
+rdfs:subPropertyOf a rdf:Property;
+  rdfs:label "subPropertyOf"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Bacchis> a rdfs:Class;
+  rdfs:label "Bacchis";
+  rdfs:comment "female servent" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#wd> a rdf:Property;
+  rdfs:label "wd" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#5ebe77aee2a4454f8389e32255c89d446188>
+  a rdfs:Class;
+  rdfs:subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Nurse>;
+  rdfs:label "Nurse (Eur. Med.)"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Nurse> a rdfs:Class;
+  rdfs:label "Nurse";
+  rdfs:comment "a nurse in Greek tragedy" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Ctesipho> a rdfs:Class;
+  rdfs:label "Ctesipho";
+  rdfs:comment "young Athenian man" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Kallipides> a rdfs:Class;
+  rdfs:label "Kallipides";
+  rdfs:comment "Sostratos' father" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#5ebe77aee2a4454f8389e32255c89d446155>
+  a rdfs:Class;
+  rdfs:subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Chorus>;
+  rdfs:label "Chorus (Eur. Med.)"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Chorus> a rdfs:Class;
+  rdfs:label "Chorus";
+  rdfs:comment "a chorus" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Gallic_chieftains> a rdfs:Class;
+  rdfs:label "Gallic chieftains" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Sicinius_Aemilianus> a rdfs:Class;
+  rdfs:label "Sicinius Aemilianus" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Attendant> a rdfs:Class;
+  rdfs:label "Attendant";
+  rdfs:comment "an attendant in Greek tragedy" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Pontianus> a rdfs:Class;
+  rdfs:label "Pontianus" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Messenger> a rdfs:Class;
+  rdfs:label "Messenger";
+  rdfs:comment "a messenger" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Daughter_of_Rufinus> a rdfs:Class;
+  rdfs:label "Daughter of Rufinus" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#manto> a rdf:Property;
+  rdfs:label "manto" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#The_son> a rdfs:Class;
+  rdfs:label "The son";
+  rdfs:comment "Speaker in Lucian's Abdicatus" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Aemilia_Pudentilla> a rdfs:Class;
+  rdfs:label "Aemilia Pudentilla";
+  rdfs:comment "Wife of Apuleius" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Catilina_iunior> a rdfs:Class;
+  rdfs:label "Catilina iunior" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Myrrhine> a rdfs:Class;
+  rdfs:label "Myrrhine";
+  rdfs:comment "Knemon's wife and Gorgias' mother by a former marriage" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Theodotus> a rdfs:Class;
+  rdfs:label "Theodotus";
+  rdfs:comment "youth with whom the speaker of Lys. 3 is in love" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#The_father> a rdfs:Class;
+  rdfs:label "The father";
+  rdfs:comment "Father of the speaker in Lucian's Abdicatus" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#link> a rdf:Property;
+  rdfs:label "link" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Council> a rdfs:Class;
+  rdfs:label "Council" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Storax> a rdfs:Class;
+  rdfs:label "Storax";
+  rdfs:comment "Athenian freedman" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Noone> a rdfs:Class;
+  rdfs:label "Noone";
+  rdfs:comment "Pronoun" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Chaireas> a rdfs:Class;
+  rdfs:label "Chaireas";
+  rdfs:comment "a friend of Sostratos" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Anyone> a rdfs:Class;
+  rdfs:label "Anyone";
+  rdfs:comment "Pronoun" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Autocles> a rdfs:Class;
+  rdfs:label "Autocles";
+  rdfs:comment "Attic citizen mentioned in Lys. 3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Simiche> a rdfs:Class;
+  rdfs:label "Simiche";
+  rdfs:comment "an old woman" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Children_of_Medea> a rdfs:Class;
+  rdfs:label "Children of Medea";
+  rdfs:comment "characters in Euripides' \"Medea\"" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Simon> a rdfs:Class;
+  rdfs:label "Simon";
+  rdfs:comment "Attic citizen who has accused the speaker of Lys. 3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Blues> a rdfs:Class;
+  rdfs:label "Blues";
+  rdfs:comment "Byzantine racing faction" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Sannio> a rdfs:Class;
+  rdfs:label "Sannio";
+  rdfs:comment "Athenian pimp" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Corvinius_Celer> a rdfs:Class;
+  rdfs:label "Corvinius Celer" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Sikon> a rdfs:Class;
+  rdfs:label "Sikon";
+  rdfs:comment "a cook" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Pamphila> a rdfs:Class;
+  rdfs:label "Pamphila";
+  rdfs:comment "young Athenian woman" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Geta> a rdfs:Class;
+  rdfs:label "Geta";
+  rdfs:comment "male domestic servant" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Lampon> a rdfs:Class;
+  rdfs:label "Lampon";
+  rdfs:comment "Attic citizen mentioned in Lys. 3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Everyone> a rdfs:Class;
+  rdfs:label "Everyone";
+  rdfs:comment "Pronoun" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Protarchus> a rdfs:Class;
+  rdfs:label "Protarchus";
+  rdfs:comment "Attic citizen mentioned in Lys. 3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Aristocritus> a rdfs:Class;
+  rdfs:label "Aristocritus";
+  rdfs:comment "Attic citizen mentioned in Lys. 3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Sostratos> a rdfs:Class;
+  rdfs:label "Sostratos";
+  rdfs:comment "a young man in love" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Greens> a rdfs:Class;
+  rdfs:label "Greens";
+  rdfs:comment "Byzantine racing faction" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#John_(of_Sisinniolus)> a
+    rdfs:Class;
+  rdfs:label "John (of Sisinniolus)";
+  rdfs:comment "Son of Sisinniolus" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Relatives_of_Pudentilla>
+  a rdfs:Class;
+  rdfs:label "Relatives of Pudentilla" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Demea> a rdfs:Class;
+  rdfs:label "Demea";
+  rdfs:comment "old Athenian man" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#tt> a rdf:Property;
+  rdfs:label "tt" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Pudens> a rdfs:Class;
+  rdfs:label "Pudens";
+  rdfs:comment "Son of Pudentilla" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Aeschinus> a rdfs:Class;
+  rdfs:label "Aeschinus";
+  rdfs:comment "young Athenian man" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Knemon's_daughter> a rdfs:Class;
+  rdfs:label "Knemon's daughter";
+  rdfs:comment "Knemon's unmarried daughter" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Children_of_Pudentilla> a
+    rdfs:Class;
+  rdfs:label "Children of Pudentilla" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Dromo> a rdfs:Class;
+  rdfs:label "Dromo" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Theophilus> a rdfs:Class;
+  rdfs:label "Theophilus";
+  rdfs:comment "Attic citizen mentioned in Lys. 3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Mother_of_Theodora> a rdfs:Class;
+  rdfs:label "Mother of Theodora" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Knemon> a rdfs:Class;
+  rdfs:label "Knemon";
+  rdfs:comment "the peevish old fellow" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Hegio> a rdfs:Class;
+  rdfs:label "Hegio" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Nieces_of_the_speaker_of_Lys._3>
+  a rdfs:Class;
+  rdfs:label "Nieces of the speaker of Lys. 3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Molon> a rdfs:Class;
+  rdfs:label "Molon";
+  rdfs:comment "Attic citizen mentioned in Lys. 3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Micio> a rdfs:Class;
+  rdfs:label "Micio";
+  rdfs:comment "old Athenian man" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Getas> a rdfs:Class;
+  rdfs:label "Getas";
+  rdfs:comment "a slave in Sostratos' family" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Gorgias> a rdfs:Class;
+  rdfs:label "Gorgias";
+  rdfs:comment "a young farmer', brother to Knemon's daughter" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Sostratos+IBk-_mother> a
+    rdfs:Class;
+  rdfs:label "Sostratos' mother";
+  rdfs:comment "Sostratos' mother" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Speaker_of_Lys._3> a rdfs:Class;
+  rdfs:label "Speaker of Lys. 3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Herennius_Rufinus> a rdfs:Class;
+  rdfs:label "Herennius Rufinus" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Canthara> a rdfs:Class;
+  rdfs:label "Canthara" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Sister_of_the_speaker_of_Lys._3>
+  a rdfs:Class;
+  rdfs:label "Sister of the speaker of Lys. 3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#being> a rdf:Property;
+  rdfs:label "being" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Lysimachus> a rdfs:Class;
+  rdfs:label "Lysimachus";
+  rdfs:comment "Attic citizen mentioned in Lys. 3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#5ebe77aee2a4454f8389e32255c89d446156>
+  a rdfs:Class;
+  rdfs:subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Messenger>;
+  rdfs:label "Messenger (Eur. Med.)"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Granddaughter_of_Antonina>
+  a rdfs:Class;
+  rdfs:label "Granddaughter of Antonina" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Cassius_Longinus> a rdfs:Class;
+  rdfs:label "Cassius Longinus" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Faesulanus> a rdfs:Class;
+  rdfs:label "Faesulanus" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#class> a rdf:Property;
+  rdfs:label "class" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Sostrata> a rdfs:Class;
+  rdfs:label "Sostrata";
+  rdfs:comment "Athenian woman" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#comment> a rdf:Property;
+  rdfs:label "comment" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#5ebe77aee2a4454f8389e32255c89d446189>
+  a rdfs:Class;
+  rdfs:subClassOf <http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Attendant>;
+  rdfs:label "Attendant (Eur. Med.)"@en .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Catilinarians> a rdfs:Class;
+  rdfs:label "Catilinarians" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Laches> a rdfs:Class;
+  rdfs:label "Laches";
+  rdfs:comment "Attic citizen mentioned in Lys. 3" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Pyrrhias> a rdfs:Class;
+  rdfs:label "Pyrrhias";
+  rdfs:comment "a slave in Sostratos' family" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Witnesses> a rdfs:Class;
+  rdfs:label "Witnesses" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Allies_of_Rome> a rdfs:Class;
+  rdfs:label "Allies of Rome" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#The_stepmother> a rdfs:Class;
+  rdfs:label "The stepmother";
+  rdfs:comment "Stepmother of the speaker in Lucian's Abdicatus" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#The_family> a rdfs:Class;
+  rdfs:label "The family" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#gender> a rdf:Property;
+  rdfs:label "gender" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#number> a rdf:Property;
+  rdfs:label "number" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#name> a rdf:Property;
+  rdfs:label "name" .
+
+<http://www.ukp.informatik.tu-darmstadt.de/inception/1.0#Daos> a rdfs:Class;
+  rdfs:label "Daos";
+  rdfs:comment "the slave of Gorgias" .
